@@ -1,4 +1,4 @@
-save districts.php
+
 <?php
 require('mysqli_connection.php');
 

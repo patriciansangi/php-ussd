@@ -1,4 +1,4 @@
-savemember.php
+
 <?php
 require('mysqli_connection.php');
 require('../africaistalking.php');

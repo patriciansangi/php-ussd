@@ -1,4 +1,4 @@
-register.php
+
 <!DOCTYPE html>
 <html>
 

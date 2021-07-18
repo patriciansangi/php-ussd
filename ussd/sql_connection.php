@@ -1,6 +1,6 @@
 <?php
 
-$sqliCon= new mysqli("localhost","root","");
+$sqliCon= new mysqli("localhost","root","6xZ*T!(7GLZZ}61b");
 
 //if ($sqliCon->connect_error) {
 	//die("connection failed: " .
