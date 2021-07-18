@@ -1,4 +1,3 @@
-php_mysql.php
 <?php
 require('AfricasTalkingGateway.php');
  

@@ -1,4 +1,3 @@
-ussd.php
 <?php
 header("Content-type:text/plane");
 

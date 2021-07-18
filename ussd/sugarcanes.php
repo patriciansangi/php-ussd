@@ -1,4 +1,3 @@
-sugarcanes.php
 <?php 
 require('sql_connection.php');
 ?>

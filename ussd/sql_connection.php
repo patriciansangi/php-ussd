@@ -1,4 +1,3 @@
-sql_connection.php
 <?php
 
 $sqliCon= new mysqli("localhost","root","");
