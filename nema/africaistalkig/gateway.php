@@ -1,4 +1,4 @@
-gateway.php
+
 <?php
 require('africaistalking.php');
  

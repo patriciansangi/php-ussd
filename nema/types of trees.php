@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Districts</title>
+	<title>NEMA REGISTER</title>
 	<link rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -14,18 +14,18 @@
         <main class="py-4">
             <div class="container">
 
-            	<h2>Districts</h2>
+            	<h2>Types of Trees</h2>
             	<hr>
 
-            	<form method="POST" action="save districts.php">
+            	<form method="POST" action="save_types_of_trees.php">
 
             		<div class="row">
             			<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 
-            				<label>Name</label><br>
-            				<input type="text" name="district_name" class="form-control">
+            				<label>Tree Name</label><br>
+            				<input type="text" name="Tree Name" class="form-control">
             				<hr>
-            				<button type="submit" class="btn btn-success">Save district</button>
+            				<button type="submit" class="btn btn-success">Save types of trees</button>
             			 
             			</div>
             			<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
@@ -39,11 +39,11 @@
 
             	<table class="table">
             		<thead>
-            			<th>ID</th> <th>Name</th>
+            			<th>ID</th> <th>Tree Name</th>
             		</thead>
 
             		<tbody>
-            			 <?php require('save districts.php') ?>
+            			 <?php require('save_types_of_trees.php') ?>
             		</tbody>
             	</table>
 
