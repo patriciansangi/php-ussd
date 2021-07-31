@@ -14,7 +14,7 @@ require 'config.php';
 
 		<?php
 		   
-		   $planid = $_GET['ticket_id'];
+		   $ticket_id = $_GET['ticket_id'];
 
     	   $ticket = "SELECT * FROM ticket WHERE ticket_id = $ticket_id";
 
